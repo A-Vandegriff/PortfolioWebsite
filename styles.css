@@ -5,13 +5,22 @@ box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
 
-.header{
-width: 100%;
-height: 100vh;
-background: #adc9ec;
+.main-body{
+  background-color: #adc9ec;
+  overflow-y: hidden;
+   }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #adc9ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .logo {
   size-adjust: 10px;
+  
 }
 .side-nav{
   width: 250px;
@@ -96,39 +105,93 @@ padding: 10px 0;
     display:none;
     width: 45px;
   }
-  .center-header{
-   padding-right: 140px;
-   font-size: 50px;
+  .center-header {
+    padding-left: 250px;
+    font-size: 2rem;
     text-align: center;
-    background-color: #568bcd;
-    box-shadow: 
-    2px  1px 0 black,
-    2px  1px 0 black;
+    background-color: #000;
     color: #fff;
+}
+ 
+.box {
+  background-color: #adc9ec;
+  color: #000;
+  margin-left: 250px;
+  padding: 50px 50px;
+  text-align: right;
+  font-size: 1.2rem;
+
+}
+ .box p1{
+  line-height: 1.5;
+  font-size: 15px;
+ }
+ .CEO{
+  line-height: 2;
+  font-size: 25px;
+  background-color: white;
+  width: 900px;
+  transform: translate(31%, -20%);
+  text-align: center;
+  position: relative;
+    top: 0px; left: 0px;
+   }
+   .icons{
+    position: absolute;  /* or relative, fixed, sticky, depending on the use case */
+    top: 86px;           /* distance from top */
+    left: 315px;         /* distance from left */
+    width: 200px;        /* width of the box */
+    height: 200px;
+    background-color: #000;
+    
+   }
+   .social-icons li a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    }
+   .social-icons{
+    list-style-type: none;
+   }
+   .social-icons li:nth-child(1) a{
+    position: relative;
+    font-size: 90px;
+    top: 9px; left: 15px;
+  }
+  .social-icons li:nth-child(2) a{
+    position: relative;
+    font-size: 90px;
+    top: 15px; left: 15px;
+  }
+  .social-icons li:nth-child(3) a{
+    position: relative;
+    font-size: 90px;
+    top: -170px; left: 107px;
+  }
+  .social-icons li:nth-child(4) a{
+    position: relative;
+    font-size: 90px;
+    top: -165px; left: 107px;
   }
  
- .box{
-  background-color:#adc9ec;
-  color: #fff;
- padding-left: 300px;
- padding-top: 200px;
- text-align: center;
- font-size: 25px;
- text-shadow: 
- -.5px -.5px 0 black, /* Top-left shadow */
- .5px -.5px 0 black, /* Top-right shadow */
--.5px  .5px 0 black, /* Bottom-left shadow */
-.5px  .5px 0 black;
- }
- .main-body{
-  padding-top: 10px;
-background-color: #adc9ec;
-
- }
+ 
  .container{
 padding-top: 10px;
-
  }
+ .floating-img{
+    float: right; /* or "right" to float it on the other side */
+    margin: 10px; /* space around the image */
+    width: 400px; /* adjust image size as needed */
+    shape-outside:circle();
+    background-color: #568bcd; /* Choose your color */
+     /* Optional: adds space around the image */
+    border-radius: 50%;
+    position: relative;
+    top: -30px; left: 40px;
+    z-index: 1;
+ }
+ 
   @media only screen and (max-width: 600px){
     .side-nav{
       width: 110px;
