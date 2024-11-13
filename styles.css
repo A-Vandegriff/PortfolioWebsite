@@ -5,19 +5,58 @@ box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
 
-.main-body{
-  background-color: #adc9ec;
-  overflow-y: hidden;
-   }
+body {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f3f3f3;
+}
 
 .header {
   width: 100%;
   height: 100vh;
-  background: #adc9ec;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.venn-diagram {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+/* Circle styling */
+.circle {
+  position: absolute;
+  width: 475px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, sans-serif;
+  mix-blend-mode: multiply;
+  border: 5px solid black;
+}
+
+/* Circle A */
+.circle-a {
+   background-color: grey;/* Red */
+  top: 100px;
+  left: 775px;
+}
+
+/* Circle B */
+.circle-b {
+  background-color: #568bcd; /* Blue */
+  left: 475px;
+  top: 100px;
+}
+
 .logo {
   size-adjust: 10px;
   
@@ -107,7 +146,7 @@ padding: 10px 0;
   }
   .center-header {
     padding-left: 250px;
-    font-size: 2rem;
+    font-size: 3.5rem;
     text-align: center;
     background-color: #000;
     color: #fff;
@@ -138,7 +177,7 @@ padding: 10px 0;
    }
    .icons{
     position: absolute;  /* or relative, fixed, sticky, depending on the use case */
-    top: 86px;           /* distance from top */
+    top: 114px;           /* distance from top */
     left: 315px;         /* distance from left */
     width: 200px;        /* width of the box */
     height: 200px;
