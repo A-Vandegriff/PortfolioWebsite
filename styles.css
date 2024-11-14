@@ -46,7 +46,7 @@ body {
 /* Circle A */
 .circle-a {
    background-color: grey;/* Red */
-  top: 100px;
+  top: 150px;
   left: 775px;
 }
 
@@ -54,12 +54,85 @@ body {
 .circle-b {
   background-color: #568bcd; /* Blue */
   left: 475px;
-  top: 100px;
+  top: 150px;
+}
+.services-list{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: rgb(175, 175, 175);
+}
+.services{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -115%); /* Perfectly center the text */
+  font-size: 24px;
+  color: black;
+}
+.consulting{
+  transform: translate(-113%, 50%); /* Perfectly center the text */
+}
+.analysis{
+  transform: translate(-113%, 250%); /* Perfectly center the text */
+}
+.integration{
+  transform: translate(-113%, 0%); /* Perfectly center the text */
+}
+.software{
+  transform: translate(-113%, 200%); /* Perfectly center the text */
 }
 
+
+.technology{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(170%, -115%); /* Perfectly center the text */
+  font-size: 24px;
+  color: black;
+}
+
+.tech{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: rgb(175, 175, 175);
+}
+
+.fullstack{
+  transform: translate(113%, 50%);
+}
+.cloud{
+  transform: translate(113%, 100%);
+}
+.web{
+  transform: translate(113%, 300%);
+}
+.mobile{
+  transform: translate(113%, 50%);
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 15px;
+  color: rgb(142, 142, 142);
+  transform: translate(22%, 150%);
+}
+.top{
+  position: absolute;
+  top: 14%;
+  left: 30%;
+  font-size: 50px;
+  color: rgb(183, 44, 44);
+  
+
+}
 .logo {
   size-adjust: 10px;
-  
 }
 .side-nav{
   width: 250px;
