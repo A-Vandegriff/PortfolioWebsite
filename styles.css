@@ -4,7 +4,19 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
-
+.header {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  
+}
+.center-header {
+  padding-left: 270px;
+  text-align: center;
+  
+  
+  
+}
 body {
   
   justify-content: center;
@@ -14,13 +26,7 @@ body {
   background-color: #adc9ec;
 }
 
-.header {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .venn-diagram {
   position: relative;
   width: 300px;
@@ -217,13 +223,7 @@ padding: 10px 0;
     display:none;
     width: 45px;
   }
-  .center-header {
-    padding-left: 275px;
-    font-size: 3.5rem;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-}
+ 
  
 .box {
   background-color: #adc9ec;
@@ -250,7 +250,7 @@ padding: 10px 0;
    }
    .icons{
     position: absolute;  /* or relative, fixed, sticky, depending on the use case */
-    top: 114px;           /* distance from top */
+    top: 106px;           /* distance from top */
     left: 315px;         /* distance from left */
     width: 200px;        /* width of the box */
     height: 200px;
@@ -453,4 +453,123 @@ color: rgb(183, 44, 44);
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+
+
+
+.about-heads li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 15px;
+  color: black;
+}
+.about-heads li:nth-child(1) a{
+  top: 30%;
+  left: 30%;
+  
+}
+.about-heads li:nth-child(2) a{
+  top: 30%;
+  left: 55%;
+  
+}
+.about-heads li:nth-child(3) a{
+  top: 30%;
+  left: 80%;
+
+}
+.about-heads li:nth-child(4) a{
+  top: 60%;
+  left: 30%;
+  
+}
+.about-heads li:nth-child(5) a{
+  top: 60%;
+  left: 55%;
+  
+}
+.about-heads li:nth-child(6) a{
+  top: 60%;
+  left: 81.9%;
+  
+}
+
+
+.about-desc li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 30px;
+  color: black;
+}
+.about-desc li:nth-child(1) a{
+  top: 32.5%;
+  left: 28.7%;
+  
+}
+.about-desc li:nth-child(2) a{
+  top: 32.5%;
+  left: 55.2%;
+  
+}
+.about-desc li:nth-child(3) a{
+  top: 32.5%;
+  left: 79.62%;
+
+}
+.about-desc li:nth-child(4) a{
+  top: 62.5%;
+  left: 26.5%;
+  
+}
+.about-desc li:nth-child(5) a{
+  top: 62.5%;
+  left: 54.3%;
+  
+}
+.about-desc li:nth-child(6) a{
+  top: 62.5%;
+  left: 81.3%;
+  
+}
+
+
+.lower-desc li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 12px;
+  color: rgb(70, 70, 70);
+}
+.low-desc li:nth-child(1) a{
+  top: 37.5%;
+  left: 28.2%;
+  
+}
+.low-desc li:nth-child(2) a{
+  top: 37.5%;
+  left: 55.5%;
+  
+}
+.low-desc li:nth-child(3) a{
+  top: 37.5%;
+  left: 81.7%;
+
+}
+.low-desc li:nth-child(4) a{
+  top: 67.5%;
+  left: 28%;
+  
+}
+.low-desc li:nth-child(5) a{
+  top: 67.5%;
+  left: 54.1%;
+  
+}
+.low-desc li:nth-child(6) a{
+  top: 67.5%;
+  left: 82.7%;
+  
 }
