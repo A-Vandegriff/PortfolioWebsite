@@ -3,55 +3,44 @@
     <head>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Scripted Reality</title>
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="css/services.css">
  <link rel="script" href="script.js">
  <script src="https://kit.fontawesome.com/d06cde0bbd.js" crossorigin="anonymous"></script>
     </head>
-    <header class="header">
-    <h1 class = "center-header">Scripted Reality</h1>
+    <header class="navbar">
+        <a href="homepage.html" class="logo">Scripted Reality</a>
+        <ul class="nav-links">
+            <li><a href="homepage.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
     </header>
 <body class="main-body">
     <div class="top">We Build Software From Start to Finish.</div>
     <div class="venn-diagram">
-        <div class="circle circle-a"></div>
-        <div class="circle circle-b"></div>
-      </div>
-      <div class="services">Full Lifetime Services</div>
-<div class="services-list">
-      <div class="consulting">Consulting Services</div>
-      <div class="analysis">Analysis and Design</div>
-      <div class="integration">Integration</div>
-      <div class="software">Software Development</div>
-</div>
-<div class="technology">Technologies</div>
-<div class="tech">
-    <div class="fullstack">Full Stack Programming</div>
-    <div class="cloud">Cloud</div>
-    <div class="web">Web</div>
-    <div class="mobile">Mobile</div>
-</div>
-<div class="middle">The Best Solutions for <br>Exceptional Software</div>
-
-
-<div>
-    <div class="side-nav">
-        <a href = '#' class = "logo">
-            <img src = "photos/SRlogo.png" class="logo-img">
-            <img src="logo-icon.png" class="logo-icon">
-        </a>
-        <ul class="nav-links">
-            <ul class="nav-links">
-                <li><a href="homepage.html"><i class="fa-solid fa-house"></i><p>Dashboard</p></a></li>
-                <li><a href="services.html"><i class="fa-solid fa-cubes"></i><p>Services</p></a></li>
-                <li><a href="projects.html"><i class="fa-solid fa-box-archive"></i><p>Projects</p></a></li>
-                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i><p>Contact</p></a></li>
-                <li><a href="about.html"><i class="fa-solid fa-book"></i><p>About</p></a></li>
-                <div class="active"></div>
+        <!-- Circle A -->
+        <div class="circle circle-a">
+            <div class="services">Consulting</div>
+        </div>
+    
+        <!-- Circle B -->
+        <div class="circle circle-b">
+            <div class="technology">Technology</div>
+        </div>
+        
+        <!-- Text inside each circle -->
+        <div class="services-list">
+            <ul>
+                <li class="consulting">Consulting</li>
+                <li class="analysis">Analysis</li>
+                <li class="integration">Integration</li>
+                <li class="software">Software</li>
             </ul>
-                 
-        </ul>
+        </div>
     </div>
-</div>
+<div class="middle">The Best Solutions for <br>Exceptional Software</div>
 
 </body>
 <script src="script.js"></script>
