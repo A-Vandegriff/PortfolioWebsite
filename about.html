@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+<script src="https://cdn.tailwindcss.com"></script>      
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Scripted Reality</title>
  <link rel="stylesheet" href="css/about.css">
  <link rel="script" href="script.js">
- <script src="https://kit.fontawesome.com/d06cde0bbd.js" crossorigin="anonymous"></script>
+ 
     </head>
     <header class="navbar">
         <a href="homepage.html" class="logo">Scripted Reality</a>
@@ -18,43 +19,50 @@
         </ul>
     </header>
     
-<body class="main-body">
-    <div class="heading-parent" style="position: relative; width: 100%; height: 200px; background: #adc9ec;">
-        <h1 class="main-heading">The Abouts!</h1>
-    </div>
-<div class="container">
-    <div class="about-heading">
-        <ul class="about-heads">
-            <li><a href="#"><i class=""></i><p>FUNDING</p></a></li>
-                <li><a href="#"><i class=""></i><p>FOUNDED</p></a></li>
-                <li><a href="#"><i class=""></i><p>HEADQUARTERS</p></a></li>
-                <li><a href="#"><i class=""></i><p>PRESS</p></a></li>
-                <li><a href="#"><i class=""></i><p>PURPOSE</p></a></li>
-                <li><a href="#"><i class=""></i><p>CULTURE</p></a></li>
-        </ul>
-    </div>
-    <div class="desc">
-        <ul class="about-desc">
-            <li><a href="#"><i class=""></i><p>$42+ M</p></a></li>
-                <li><a href="#"><i class=""></i><p>2016</p></a></li>
-                <li><a href="#"><i class=""></i><p>Detroit, MI</p></a></li>
-                <li><a href="#"><i class=""></i><p>In The News</p></a></li>
-                <li><a href="#"><i class=""></i><p>Quality</p></a></li>
-                <li><a href="#"><i class=""></i><p>Values</p></a></li>
-        </ul>
-    </div>
-<div class="lower-desc">
-    <ul class="low-desc">
-            <li><a href="#"><i class=""></i><p>Quarter Announcement</p></a></li>
-            <li><a href="#"><i class=""></i><p>Reality Hit!</p></a></li>
-            <li><a href="#"><i class=""></i><p>Built in Detroit</p></a></li>
-            <li><a href="#"><i class=""></i><p>What the Media Says</p></a></li>
-            <li><a href="#"><i class=""></i><p>Word from our CEO</p></a></li>
-            <li><a href="#"><i class=""></i><p>Our DNA</p></a></li>
-    </ul>
-    </div>
-</div>
+    <body class="main-body flex flex-col justify-center items-center min-h-screen bg-[#adc9ec]">
+<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We invest in the world’s potential</h1>
+<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 text-center px-4">
+    Here at Flowbite we focus on markets where technology, innovation, and capital<br> can unlock long-term value and drive economic growth.
+  </p>
+<a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+    Learn more
+    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+</a>
 
+<section id="company-description" 
+class="description bg-white py-12 px-6 text-center w-3/4 mx-auto mt-20 shadow-lg rounded-lg">
+    <h2 class="text-3xl font-bold mb-4 text-gray-800">About Scripted Reality</h2>
+    <p class="text-lg text-gray-600">
+        Scripted Reality is a forward-thinking company that invests in innovative markets. 
+        Since 2016, we've focused on technology-driven growth, supporting ideas that unlock potential and transform industries. 
+        Join us in building a brighter, more connected future.
+    </p>
+</section>
 </body>
+
+
+
+
+<footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+</footer>
+
 <script src="script.js"></script>
 </html>
