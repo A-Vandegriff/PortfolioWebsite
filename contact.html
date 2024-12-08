@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: 'Poppins', sans-serif;
+            }
+            body {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+              margin: 0;
+              background-color: #adc9ec;
+            }
+            .contact-form-container {
+              max-width: 600px;
+              width: 100%;
+              padding: 20px;
+              background: #fff;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+              border-radius: 8px;
+            }
+            .h1 {
+              text-align: center;
+              margin-bottom: 20px;
+              font-size: 1.8rem;
+              color: #0056b3;
+            }
+            .form-group {
+              margin-bottom: 15px;
+            }
+            label {
+              display: block;
+              margin-bottom: 5px;
+              font-weight: bold;
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea {
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 1rem;
+            }
+            textarea {
+              resize: vertical;
+            }
+            button {
+              display: block;
+              width: 100%;
+              padding: 10px;
+              background-color: #007BFF;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              font-size: 1rem;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+            }
+            button:hover {
+              background-color: #0056b3;
+            }
+          </style>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Scripted Reality</title>
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="css/contact.css">
  <link rel="script" href="script.js">
  <script src="https://kit.fontawesome.com/d06cde0bbd.js" crossorigin="anonymous"></script>
     </head>
-    <header class="header">
-    <h1 class = "center-header">Scripted Reality</h1>
+    <header class="navbar">
+        <a href="homepage.html" class="logo">Scripted Reality</a>
+        <ul class="nav-links">
+            <li><a href="homepage.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
     </header>
 <body class="main-body">
     <div class="contact-form-container">
@@ -33,26 +105,6 @@
             <button type="submit">Send Message</button>
         </form>
     </div>
-    
-<div>
-    <div class="side-nav">
-        <a href = '#' class = "logo">
-            <img src = "photos/SRlogo.png" class="logo-img">
-            <img src="logo-icon.png" class="logo-icon">
-        </a>
-        <ul class="nav-links">
-               <ul class="nav-links">
-    <li><a href="homepage.html"><i class="fa-solid fa-house"></i><p>Dashboard</p></a></li>
-    <li><a href="services.html"><i class="fa-solid fa-cubes"></i><p>Services</p></a></li>
-    <li><a href="projects.html"><i class="fa-solid fa-box-archive"></i><p>Projects</p></a></li>
-    <li><a href="contact.html"><i class="fa-solid fa-envelope"></i><p>Contact</p></a></li>
-    <li><a href="about.html"><i class="fa-solid fa-book"></i><p>About</p></a></li>
-    <div class="active"></div>
-</ul>
-                  
-        </ul>
-    </div>
-</div>
 
 </body>
 <script src="script.js"></script>

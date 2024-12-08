@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+   
+    body {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #adc9ec;
+    }
+  
+  header {
+    width: 100%;
+    height: 60px;
+    background: #568bcd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Logo or Branding */
+header .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+/* Navigation Links */
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header .nav-links li a:hover {
+    background: #fff;
+    color: #568bcd;
+}
+
+header .nav-links li a.active {
+    background: #fff;
+    color: #568bcd;
+}
+  
+  @media (max-width: 600px) {
+      .navbar {
+          padding: 0 10px;
+      }
+  
+      .navbar .logo {
+          font-size: 18px;
+      }
+  
+      .navbar .nav-links {
+          gap: 10px;
+      }
+  
+      .navbar .nav-links a {
+          font-size: 14px;
+          padding: 6px 10px;
+      }
+  }
+ 
+        .box {
+            background-color: #adc9ec;
+            color: #000;
+            margin-left: 250px;
+            padding: 50px 50px;
+            text-align: right;
+            font-size: 1.2rem;
+          
+          }
+           .box p1{
+            line-height: 1.5;
+            font-size: 15px;
+           }
+           .CEO{
+            line-height: 2;
+            font-size: 25px;
+            background-color: white;
+            width: 900px;
+            transform: translate(31%, -20%);
+            text-align: center;
+            position: relative;
+              top: 0px; left: 0px;
+             }
+             .icons{
+              position: absolute;  /* or relative, fixed, sticky, depending on the use case */
+              top: 140px;           /* distance from top */
+              left: 315px;         /* distance from left */
+              width: 200px;        /* width of the box */
+              height: 200px;
+              background-color: #000;
+              
+             }
+             .social-icons li a{
+              color: #fff;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+              }
+             .social-icons{
+              list-style-type: none;
+             }
+             .social-icons li:nth-child(1) a{
+              position: relative;
+              font-size: 90px;
+              top: 9px; left: 15px;
+            }
+            .social-icons li:nth-child(2) a{
+              position: relative;
+              font-size: 90px;
+              top: 15px; left: 15px;
+            }
+            .social-icons li:nth-child(3) a{
+              position: relative;
+              font-size: 90px;
+              top: -170px; left: 107px;
+            }
+            .social-icons li:nth-child(4) a{
+              position: relative;
+              font-size: 90px;
+              top: -165px; left: 107px;
+            }
+           
+           
+           .container{
+          margin-top: 100px; 
+          margin-right: 200px;      
+           }
+          
+           .floating-img{
+              float: right; /* or "right" to float it on the other side */
+              margin: 10px; /* space around the image */
+              width: 400px; /* adjust image size as needed */
+              shape-outside:circle();
+              background-color: #568bcd; /* Choose your color */
+              border-radius: 50%;
+              position: relative;
+              top: -30px; left: 40px;
+              z-index: 1;
+           }
+           
+            

@@ -1,0 +1,285 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+.header {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  
+}
+.center-header {
+  padding-left: 270px;
+  text-align: center; 
+}
+body {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #adc9ec;
+}
+.logo {
+  size-adjust: 10px;
+}
+.side-nav{
+  width: 250px;
+  height: 100%;
+background: #568bcd;
+position: fixed;
+top: 0;
+left: 0;
+padding: 20px 30px;
+box-shadow: 
+    -2px  1px 0 black, 
+     2px  1px 0 black;
+}
+.logo{
+  display: block;
+  margin-bottom: 130px;
+  
+}
+.logo-img{
+  width: 150px;
+}
+.nav-links{
+list-style: none;
+position: relative;
+}
+.nav-links li{
+padding: 10px 0;
+}
+
+.nav-links li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  }
+  .nav-links li a i{
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  .active{
+    background: #fff;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: -9.5%;
+    top: 3.2%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+    display: none;
+    transition: top 0.4s;
+  }
+  .nav-links li:hover a{
+      color: #0d74f5;
+      transition: 0.3s;
+  }
+  .nav-links li:hover ~ .active{
+      display: block;
+  }
+  .nav-links li:nth-child(1):hover ~ .active{
+    left: -9.5%;
+    top: 3.2%;
+  }
+  .nav-links li:nth-child(2):hover ~ .active{
+    left: -9.5%;
+    top: 23.2%;
+  }
+  .nav-links li:nth-child(3):hover ~ .active{
+    left: -9.5%;
+    top: 43.2%;
+  }
+  .nav-links li:nth-child(4):hover ~ .active{
+    left: -9.5%;
+    top: 63.2%;
+  }
+  .nav-links li:nth-child(5):hover ~ .active{
+    left: -9.5%;
+    top: 83.2%;
+  }
+ 
+.about-heads li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 15px;
+  color: black;
+}
+.about-heads li:nth-child(1) a{
+  top: 30%;
+  left: 30%;
+  
+}
+.about-heads li:nth-child(2) a{
+  top: 30%;
+  left: 55%;
+  
+}
+.about-heads li:nth-child(3) a{
+  top: 30%;
+  left: 80%;
+
+}
+.about-heads li:nth-child(4) a{
+  top: 60%;
+  left: 30%;
+  
+}
+.about-heads li:nth-child(5) a{
+  top: 60%;
+  left: 55%;
+  
+}
+.about-heads li:nth-child(6) a{
+  top: 60%;
+  left: 81.9%;
+  
+}
+
+
+.about-desc li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 30px;
+  color: black;
+}
+.about-desc li:nth-child(1) a{
+  top: 32.5%;
+  left: 28.7%;
+  
+}
+.about-desc li:nth-child(2) a{
+  top: 32.5%;
+  left: 55.2%;
+  
+}
+.about-desc li:nth-child(3) a{
+  top: 32.5%;
+  left: 79.62%;
+
+}
+.about-desc li:nth-child(4) a{
+  top: 62.5%;
+  left: 26.5%;
+  
+}
+.about-desc li:nth-child(5) a{
+  top: 62.5%;
+  left: 54.3%;
+  
+}
+.about-desc li:nth-child(6) a{
+  top: 62.5%;
+  left: 81.3%;
+  
+}
+
+
+.lower-desc li a{
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  font-size: 12px;
+  color: rgb(70, 70, 70);
+}
+.low-desc li:nth-child(1) a{
+  top: 37.5%;
+  left: 28.2%;
+  
+}
+.low-desc li:nth-child(2) a{
+  top: 37.5%;
+  left: 55.5%;
+  
+}
+.low-desc li:nth-child(3) a{
+  top: 37.5%;
+  left: 81.7%;
+
+}
+.low-desc li:nth-child(4) a{
+  top: 67.5%;
+  left: 28%;
+  
+}
+.low-desc li:nth-child(5) a{
+  top: 67.5%;
+  left: 54.1%;
+  
+}
+.low-desc li:nth-child(6) a{
+  top: 67.5%;
+  left: 82.7%;
+  
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: absolute; /* Required for transform to take effect */
+  top: 50%; /* Moves to the middle of the page */
+  left: 58%; /* Moves to the middle of the page */
+  transform: translate(-50%, -56%);
+  width: 600px;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color:#0056b3;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical; /* Allows resizing vertically only */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -26,3 +26,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const serviceContainers = document.querySelectorAll('.services-list > div, .tech > div');
+
+    serviceContainers.forEach(service => {
+        service.addEventListener('click', () => {
+            const description = service.querySelector('.description');
+            if (description) {
+                description.classList.toggle('visible');
+                console.log('Description toggled:', description);
+            }
+        });
+    });
+});
+
+
