@@ -8,7 +8,7 @@
 body {
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
   margin: 0;
   background-color: #adc9ec;
   display: flex; /* To center content */
@@ -67,14 +67,15 @@ header .nav-links li a.active {
 
 .service-header{
   width: 100%;
-  background: #adc9ec; /* Or another color */
+  background: #cde3ff; /* Or another color */
   padding: 20px;
-  margin-top: -30%; /* Matches the height of the fixed header */
+  margin-top: -61%; /* Matches the height of the fixed header */
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 }
 .paragraph{
   position: absolute;
-  width: 50%;
+  width: 70%;
+  font-size: 20px;
 }
    
