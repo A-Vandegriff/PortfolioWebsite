@@ -7,9 +7,7 @@
    
     body {
       justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
+      align-items: center;      
       background-color: #adc9ec;
     }
   
@@ -82,37 +80,57 @@ header .nav-links li a.active {
       }
   }
  
-        .box {
-            background-color: #adc9ec;
-            color: #000;
-            margin-left: 250px;
-            padding: 50px 50px;
-            text-align: right;
-            font-size: 1.2rem;
-          
-          }
-           .box p1{
-            line-height: 1.5;
-            font-size: 15px;
-           }
-           .CEO{
-            line-height: 2;
-            font-size: 25px;
-            background-color: white;
-            width: 900px;
-            transform: translate(31%, -20%);
-            text-align: center;
-            position: relative;
-              top: 0px; left: 0px;
-             }
+  .note{
+    display: flex;
+    justify-content: space-between; /* Space the blocks evenly */
+    align-items: center; /* Align items vertically */
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+.block {
+    flex: 1; /* Optional: makes all blocks the same size */
+    text-align: left; /* Align content to the left */
+}
+
+.block-two {
+    flex: 1; /* Optional */
+    text-align: center; /* Align content to the center */
+}
+
+.block-three {
+    flex: 1; /* Optional */
+    text-align: right; /* Align content to the right */
+}
+
+       
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .note-container {
+      margin-top: 0; /* Remove top margin for larger screens where items are side-by-side */
+  }
+
+  .social-icons-container {
+      margin-top: 0; /* Same alignment on larger screens */
+  }
+}
+
+.social-icons li {
+    list-style: none;
+}
+           
              .icons{
-              position: absolute;  /* or relative, fixed, sticky, depending on the use case */
-              top: 140px;           /* distance from top */
-              left: 315px;         /* distance from left */
+                /* or relative, fixed, sticky, depending on the use case */
+              margin-top: -10%;
+              margin-left: 5%;        /* distance from left */
               width: 200px;        /* width of the box */
               height: 200px;
-              background-color: #000;
-              
+              background-color: #000;             
              }
              .social-icons li a{
               color: #fff;
@@ -143,23 +161,23 @@ header .nav-links li a.active {
               font-size: 90px;
               top: -165px; left: 107px;
             }
-           
-           
-           .container{
-          margin-top: 100px; 
-          margin-right: 200px;      
-           }
+            .landing-heading {
+              text-align: center; /* Center-align the text */
+              margin-top: 7%; /* Add margin to push the heading below the fixed header */
+              padding: 0 20px; /* Add padding for small screens */
+          }
           
-           .floating-img{
-              float: right; /* or "right" to float it on the other side */
-              margin: 10px; /* space around the image */
-              width: 400px; /* adjust image size as needed */
-              shape-outside:circle();
-              background-color: #568bcd; /* Choose your color */
-              border-radius: 50%;
-              position: relative;
-              top: -30px; left: 40px;
-              z-index: 1;
-           }
+          .landing-heading h1 {
+              margin-bottom: 20px; /* Add spacing below the heading */
+          }
+          
+          .landing-heading p {
+              max-width: 600px; /* Set a max width for the paragraph */
+              margin: 0 auto; /* Center the paragraph horizontally */
+          }
+          
+        
+         
+          
            
             
