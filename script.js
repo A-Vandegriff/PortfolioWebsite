@@ -26,20 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contact-form');
+    const thankYouMessage = document.getElementById('thank-you-message');
 
-document.addEventListener("DOMContentLoaded", () => {
-    const serviceContainers = document.querySelectorAll('.services-list > div, .tech > div');
+    form.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the form from reloading the page
 
-    serviceContainers.forEach(service => {
-        service.addEventListener('click', () => {
-            const description = service.querySelector('.description');
-            if (description) {
-                description.classList.toggle('visible');
-                console.log('Description toggled:', description);
-            }
-        });
+        // Hide the form and show the thank-you message
+        form.style.display = 'none';
+        thankYouMessage.style.display = 'block';
     });
 });
-
 
 
